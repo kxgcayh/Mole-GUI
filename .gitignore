@@ -1,0 +1,92 @@
+# --------------------------------------------------
+# macOS & System Files
+# --------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --------------------------------------------------
+# Flutter / Dart / Pub
+# --------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+*.lcov
+**/doc/api/
+
+# --------------------------------------------------
+# Release Binaries & DMG Distributables
+# --------------------------------------------------
+/dist/
+*.dmg
+*.pkg
+*.zip
+*.tar.gz
+*.iconset/
+
+# --------------------------------------------------
+# macOS / Xcode Ephemeral & User State
+# --------------------------------------------------
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Runner.xcworkspace/xcuserdata/
+**/macos/Runner.xcodeproj/xcuserdata/
+**/macos/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcscmblueprint
+*.dSYM/
+*.dSYM.zip
+
+# --------------------------------------------------
+# Symbolication & Obfuscation
+# --------------------------------------------------
+app.*.symbols
+app.*.map.json
+
+# --------------------------------------------------
+# IDEs and Text Editors
+# --------------------------------------------------
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Other editors
+*.swp
+*.swo
+*~
+.history/
+.fleet/
+
+# --------------------------------------------------
+# Logs & Environment Secrets
+# --------------------------------------------------
+*.log
+*.crash
+.env
+.env.*
+!.env.example
+*.local
